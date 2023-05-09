@@ -1,7 +1,11 @@
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <section className="team">
+      {/* <div className="container max-w-6xl mx-auto border"> */}
+        <h1>Nosso Time</h1>
+      {/* </div> */}
+    </section>
   )
 }
 
