@@ -1,40 +1,46 @@
+import { useState } from "react";
 
 import left from "../assets/img/left-stripe.png";
 import right from "../assets/img/right-stripe.png";
 import logo from "../assets/img/logo-center.png";
 
+import { HiOutlineBars4 } from "react-icons/hi2";
+
 const Navbar = () => {
+  
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   return (
-    <nav className="navbar flex justify-center">
-      <div className="nav-container px-10 h-[200px] uppercase text-white font-bold ">
-        <div className="left flex">
-          <div className="left-img mr-10 w-20">
-            <img src={left} alt="left-stripe"/>
-          </div>
-          <ul className="flex gap-6">
-            <li className="hover:text-[#88521a] hover:underline" >
-              <a href="#">História</a>
+    <nav className="navbar">
+      <div className="menu-bar w-screen flex justify-around sm:justify-around lg:hidden">
+        <div className="w-80">
+          <img src={logo} alt="" />
+        </div>
+        <button className="button" onClick={() => setIsMenuVisible(!isMenuVisible)}>
+          <HiOutlineBars4 size={40} color="#88521a" />
+        </button>
+      </div>
+      <div className="main-menu hidden lg:flex lg:justify-center lg:w-screen">
+        <div className="main-nav flex items-center font-bold uppercase">
+          <ul className="flex gap-4">
+            <li>
+              <a href="#" className="hover:text-[#88521a]">Home</a>
             </li>
-            <li className="hover:text-[#88521a] hover:underline">
-              <a href="#">Serviços</a>
+            <li>
+              <a href="#" className="hover:text-[#88521a]">Historia</a>
             </li>
           </ul>
-        </div>
-        <div className="image w-96 mt-8">
-          <img src={logo} alt="center-logo" />
-        </div>
-        <div className="right flex">
-          <ul className="flex gap-6">
-            <li className="hover:text-[#88521a] hover:underline">
-              <a href="#">Time</a>
+          <div className="center-logo w-80">
+            <img src={logo} alt="" />
+          </div>
+          <ul className="flex gap-4">
+            <li>
+              <a href="#" className="hover:text-[#88521a]">Time</a>
             </li>
-            <li className="hover:text-[#88521a] hover:underline">
-              <a href="#">Contato</a>
+            <li>
+              <a href="#" className="hover:text-[#88521a]">Contato</a>
             </li>
           </ul>
-          <div className="left-img ml-10 w-20">
-            <img src={right} alt="right-stripe" />
-          </div>
         </div>
       </div>
     </nav>
