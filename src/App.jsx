@@ -9,6 +9,7 @@ import Who from "./components/Who";
 import Services from "./components/Services";
 import Gallery from "./components/Gallery";
 import Team from "./components/Team";
+import Map from "./components/Map";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
       </div>
       <div className="content min-h-screen">
         <Who />
+        <Team />
         <Services />
         <Gallery />
-        <Team />
+        <Map />
       </div>
       <Footer />
     </div>

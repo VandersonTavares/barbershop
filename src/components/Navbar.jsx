@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import left from "../assets/img/left-stripe.png";
-import right from "../assets/img/right-stripe.png";
 import logo from "../assets/img/logo-center.png";
 
 import { HiOutlineBars4 } from "react-icons/hi2";
