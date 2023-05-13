@@ -7,8 +7,8 @@ import GalleryCard from "./GalleryCard";
 
 const Gallery = () => {
   return (
-    <section className="gallery text-center bg-black">
-      {/* <h1 className="text-2xl text-white">Galeria</h1> */}
+    <section className="gallery text-center">
+      <h1 className="text-4xl font-dance text-[#729476]">Galeria</h1>
       <div className="gallery-content mx-auto max-w-6xl">
         <GalleryCard images={images}/>
       </div>

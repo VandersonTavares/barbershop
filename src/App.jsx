@@ -22,7 +22,7 @@ function App() {
       <div className="content min-h-screen">
         <Who />
         <Team />
-        <Services />
+        {/* <Services /> */}
         <Gallery />
         <Map />
       </div>
