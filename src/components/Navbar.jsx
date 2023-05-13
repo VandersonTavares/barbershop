@@ -1,12 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import logo from "../assets/img/logo-center.png";
 
-import { HiOutlineBars4 } from "react-icons/hi2";
+// import { HiOutlineBars4 } from "react-icons/hi2";
 
 const Navbar = () => {
   
-  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  // const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   return (
     <nav className="navbar">
