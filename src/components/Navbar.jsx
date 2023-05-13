@@ -14,9 +14,9 @@ const Navbar = () => {
         <div className="w-80">
           <img src={logo} alt="" />
         </div>
-        <button className="button" onClick={() => setIsMenuVisible(!isMenuVisible)}>
+        {/* <button className="button" onClick={() => setIsMenuVisible(!isMenuVisible)}>
           <HiOutlineBars4 size={40} color="#88521a" />
-        </button>
+        </button> */}
       </div>
       <div className="main-menu hidden lg:flex lg:justify-center lg:w-screen">
         <div className="main-nav flex items-center font-bold uppercase">
