@@ -11,7 +11,7 @@ const Hero = () => {
           eveniet atque quasi, illo vel ex accusantium quis officia sequi, ullam
           enim. Porro perferendis magni vel natus. Laudantium beatae veniam sed.
         </p>
-        <button className="mt-10 py-3 px-10 rounded text-white uppercase bg-[#88521a]">Agendar</button>
+        <button className="mt-24 py-3 px-10 rounded text-white uppercase bg-[#88521a] lg:mt-10">Agendar</button>
       </div>
       </div>
     </section>
