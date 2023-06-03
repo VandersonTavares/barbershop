@@ -22,10 +22,10 @@ const Navbar = () => {
         <div className="main-nav flex items-center font-bold uppercase">
           <ul className="flex gap-4">
             <li>
-              <a href="#" className="hover:text-[#88521a]">Home</a>
+              <a href="#hero" className="hover:text-[#88521a]">Home</a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#88521a]">Historia</a>
+              <a href="#who" className="hover:text-[#88521a]">Historia</a>
             </li>
           </ul>
           <div className="center-logo w-80">
@@ -33,10 +33,10 @@ const Navbar = () => {
           </div>
           <ul className="flex gap-4">
             <li>
-              <a href="#" className="hover:text-[#88521a]">Time</a>
+              <a href="#team" className="hover:text-[#88521a]">Time</a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#88521a]">Contato</a>
+              <a href="#gallery" className="hover:text-[#88521a]">Galeria</a>
             </li>
           </ul>
         </div>

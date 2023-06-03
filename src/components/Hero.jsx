@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="h-screen">
       <div className="container mx-auto max-w-6xl text-center flex flex-col items-center justify-center mt-14 lg:mt-36">
         <h1 className="text-5xl font-dance text-[#88521a]">Corte e qualidade</h1>

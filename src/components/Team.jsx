@@ -14,7 +14,7 @@ const team = [
 
 const Team = () => {
   return (
-    <section className="team mt-20 mb-20 text-center " style={{backgroundImage: `url(${bgLogo})`,  backgroundSize: 'contain',  backgroundPosition: 'center'}}>
+    <section className="team mt-20 mb-20 text-center" id="team" style={{backgroundImage: `url(${bgLogo})`,  backgroundSize: 'contain',  backgroundPosition: 'center'}}>
       <h1 className="text-4xl font-dance text-[#729476]">Nosso Time</h1>
       <div className="content max-w-6xl mx-auto">
         <div className="card-gallery flex flex-wrap justify-center opacity-100">

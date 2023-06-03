@@ -1,6 +1,6 @@
 const Who = () => {
   return (
-    <section className="who mt-10">
+    <section className="who mt-10" id="who">
       <div className="container max-w-6xl mx-auto text-center flex flex-col items-center justify-center">
         <h1 className="text-4xl mb-3 font-dance text-[#729476]">Quem Somos</h1>
         <p className="max-w-2xl">
